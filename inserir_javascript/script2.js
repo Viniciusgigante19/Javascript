@@ -1,0 +1,1 @@
+console.log("Other script of the body!")
