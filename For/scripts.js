@@ -10,3 +10,14 @@ for (var j = 0 ; j < arr.length; j++) {
 }
 
 console.log(arr.length);
+
+var i = 0
+for (var i = 0; i < 10 ; i++) {
+    console.log("Repetindo for : "+i);
+
+    if (i === 5) {
+        break
+    }
+}
+
+
