@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //======================================================map()
+
+
+        const numbers = [1,2,3,4,5,6,7];
+
+        let doubledNumbers = numbers.map(function(elem) {
+            return elem  *  2
+        })
+        console.log(doubledNumbers);
+        // ------------------------------------------- //
+        function doubledNumber(num){
+            return num * 2
+        }
+        const doubledNumbero = numbers.map(doubledNumber)
+        console.log(doubledNumbero)
+        // ------------------------------------------- //
+        const fahrenheit = [32,43,36,100,-20];
+        const celsius = fahrenheit.map(function()
+        {
+
+        })
+
+    </script>
+</body>
+</html>

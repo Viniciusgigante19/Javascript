@@ -1,0 +1,13 @@
+
+[
+    {  
+          "nome": "Gigante",
+    "idade": 19,
+    "esta_estudando":true,
+    "detalhes_profissão":{
+        "profissão": "Desenvolvedor",
+        "empresa":"mojang"
+    } ,
+       "hobbies": ["programador","ler"]
+    }
+]
